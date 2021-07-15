@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  text-decoration: none;
+  list-style: none;
+  background: white;
+}
+
+header{
+  height: 100vh;
+  background: linear-gradient(rgb(43, 44, 80),rgb(51, 173, 243));
+  display: flex;
+  flex-direction: column;
+}
+
+header nav{
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  width: 100%;
+  /* background: rgb(51, 54, 114); */
+  /* border: 2px solid yellowgreen; */
+  /* position:fixed; */
+
+}
+
+header nav .name{
+  margin: auto;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+header nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: auto;
+}
+nav ul a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+nav ul li{
+  padding: 0 6px 0 6px;
+  margin: 0 2vw 0 2vw;
+  /* border: violet 2px solid; */
+}
+
+
+.about{
+  height: 90vh;
+  border: 2px solid rgb(255, 106, 37);
+  
+}
+.skills{
+  height: 90vh;
+  /* border: 2px solid yellowgreen; */
+}
+
+.projects{
+  height: 90vh;
+  border: 3px solid rgb(152, 72, 226);
+}
+.experience{
+  height: 90vh;
+  border: 5px solid rgb(130, 137, 238);
+}
+.contact{
+  border-top: 2px solid black;
+  height: 60vh;
+}
